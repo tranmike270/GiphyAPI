@@ -1,0 +1,17 @@
+.btn-md {
+    margin: 10px;
+}
+
+.btn {
+    margin-top: 10px; 
+}
+.newGif {
+    display: inline-block;
+    margin: 10px;
+    overflow: auto;
+
+}
+
+p {
+    margin-left: 10px;
+}

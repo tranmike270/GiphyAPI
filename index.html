@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gify API</title>
+    <!-- Linking Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7"
+        crossorigin="anonymous">
+    <!-- Linking my own CSS file -->
+    <link rel="stylesheet" type="text/css" href="assets/CSS/styles.css">
+</head>
+
+<body class="container-fluid">
+
+    <div class="row" id="btns-holder"></div>
+    <div class="row">
+        <div class="col-lg-8" id="gifs">
+
+        </div>
+        <div class="col-lg-3" id="add-bar">
+            <div class="row justify-content-end">
+                <div>
+                    <form id="newCat">
+
+                        <label for="new-category">Add a New Category</label>
+                        <input type="text" class="form-control" id="new-category" placeholder="Type your desired category">
+
+                        
+                    </form>
+                    <button type="submit" class="btn btn-primary" id="add-category" name = "new-cat">Add Category</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Linking jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Linking my own JS file -->
+    <script src="assets/Javascript/scripts.js" type="text/javascript"></script>
+</body>
+
+</html>
